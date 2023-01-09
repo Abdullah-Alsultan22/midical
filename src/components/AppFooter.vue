@@ -35,7 +35,7 @@
                     <h3>QUICK LINK</h3></ul>
                 <div class="social">
                     <h2>Contact US</h2>
-                    <p><img src="../assets/global/Icon material-my-location.svg" alt="">  Sana'a - Hail Street</p>
+                    <p><img src="../assets/global/Iconmaterial-my-location.svg" alt="">  Sana'a - Hail Street</p>
                     <p><img src="../assets/global/cont.svg" alt=""> +967 777-000-000</p>
                     <p><img src="../assets/global/fecbok.svg" alt=""> Temmam Light</p>
                     <i class="fa-solid fa-tricycle"></i>
