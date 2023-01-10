@@ -131,7 +131,11 @@ export default {
   height: 400px;
   background-color: #cefbf9;
 }
-
+@media (max-width: 768px) {
+  .home .min-title {
+    width: 102%;
+  }
+}
 .home .form h2 {
   font-size: 25px;
   font-weight: bold;

@@ -35,10 +35,16 @@ export default {
 
 <style scoped>
 header {
-  left: 0;
+    
   width: 100%;
-  z-index: 2;
   background-color: #cefbf9;
+}
+
+@media (max-width: 1099px) {
+    header{
+        width: 109%;
+  background-color: #cefbf9;
+    }
 }
 
 .container {

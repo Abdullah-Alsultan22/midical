@@ -38,6 +38,13 @@ name:"OurStrategy",
     color: #2F6044;
     font-size: 30px;
 }
+@media (max-width: 768px) {
+    .OurStrategy .container h3{
+        position: relative;
+    top: 128px;
+    padding: 34px 0 10px 0;
+}
+  }
 
 
 .OurStrategy .container p {
@@ -77,9 +84,9 @@ name:"OurStrategy",
 @media (max-width: 768px) {
     .OurStrategy .container img {
         position: absolute;
-    bottom: 32%;
-    width: 43%;
-    left: 105px;
+    bottom: 48%;
+    width: 59%;
+    left: 77px;
 }
   }
 
