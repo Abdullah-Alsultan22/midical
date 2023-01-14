@@ -1,10 +1,9 @@
 <template>
-     <div class="line"></div>
-    <div class="about" id="about">
-   
-        <div class="container">
-            <h3>About US</h3>
-            <p>Temmam Pharma represents and aims to be the agent of major and minor
+     <div  class="line"></div>
+    <div data-aos="fadeInUp"  class="about" id="about">
+        <div  class="container">
+            <h3 >About US</h3>
+            <p >Temmam Pharma represents and aims to be the agent of major and minor
 multinational pharmaceutical industries worldwide and partner with
 international NGOs in the country to pave the way for better access for.<br>
 Temmam Pharma represents and aims to be the agent of major and minor
@@ -14,19 +13,24 @@ Temmam Pharma represents and aims to be the agent of major and minor
 multinational pharmaceutical industries worldwide and partner with
 international NGOs in the country to pave the way for better access for.
             </p>
-            <img src="../assets/global/dr1.1.png" alt="">
+            <img data-aos="zoom-in-right" src="../assets/global/dr1.1.png" alt="">
         </div>
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from '@/components/HelloWorld.vue';
+
+
 
 export default {
+
   name: 'AboutView',
   components: {
-    HelloWorld
+    HelloWorld,
+  
+
   }
 }
 </script>

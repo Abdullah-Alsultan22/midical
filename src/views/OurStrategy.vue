@@ -1,7 +1,7 @@
 <template>  <div class="line"></div>
      <div class="OurStrategy" id="Strategy">
    
-   <div class="container">
+   <div data-aos="zoom-in-up" class="container">
        <h3>Our Strategy</h3>
        <p>Temmam Pharma represents and aims to be the agent of major and minor
 multinational pharmaceutical industries worldwide and partner with
@@ -13,7 +13,7 @@ Temmam Pharma represents and aims to be the agent of major and minor
 multinational pharmaceutical industries worldwide and partner with
 international NGOs in the country to pave the way for better access for.
        </p>
-       <img src="../assets/global/dr2.png" alt="">
+       <img data-aos="zoom-in-left" src="../assets/global/dr2.png" alt="">
    </div>
 </div>
 </template>

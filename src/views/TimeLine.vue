@@ -2,11 +2,11 @@
   <div id="TimeLine" class="timeline">
     <div class="container">
       <h2>TimeLine for Campany</h2>
-      <p>
+      <p data-aos="zoom-in-down">
         Temmam Pharma represents and aims to be the agent of major and minor
         multinational pharmaceutical industries worldwide
       </p>
-      <div class="lines">
+      <div data-aos="zoom-in-up" class="lines">
         <div class="main-line"></div>
         <div class="details">
           <div class="data-bott">
@@ -481,8 +481,8 @@ bottom: -9px;
     background-color: #2CC2BD;
     border-radius: 50%;
     position: relative;
-    left: 226px;
-    top: 41px;
+    left: 227px;
+    top: 36px;
 }
 @media (max-width: 1099px) {
   .cercal-five {
@@ -634,6 +634,7 @@ bottom: -9px;
   width: 25px;
     position: relative;
     top: -17px;
+    z-index: -1;
 }
 
   @media (max-width: 1099px) {
@@ -652,6 +653,7 @@ bottom: -9px;
     top: 79px;
     width: 20px;
     left: -2px;
+    z-index: -1;
 }
 @media (max-width: 1099px) {
   .tow  {
@@ -690,6 +692,7 @@ bottom: -9px;
   width: 25px;
     position: relative;
     top: -17px;
+    z-index: -1;
 }
 @media (max-width: 1099px) {
   .three  {
@@ -704,11 +707,12 @@ bottom: -9px;
 
 .con-top-four{
   position: relative;
-    top: -60px;
+    top: -55px;
     left: 49px;
     border: 1px solid #bbd7d675;
     border-radius: 10px;
     background-color: white;
+
 }
 @media (max-width: 1099px) {
   .con-top-four  {
@@ -726,8 +730,9 @@ bottom: -9px;
 .four{
   rotate: 180deg;
     position: relative;
-    top: 72px;
+    top: 64px;
     width: 31px;
+    z-index: -1;
 }
 @media (max-width: 1099px) {
   .four  {
@@ -748,7 +753,7 @@ bottom: -9px;
     border: 1px solid #bbd7d675;
     border-radius: 10px;
     background-color: white;
-    top: 50px;
+    top: 46px;
 }
 @media (max-width: 1099px) {
   .con-bott-five {
@@ -766,6 +771,7 @@ bottom: -9px;
 .five{    width: 25px;
     position: relative;
     top: -17px;
+    z-index: -1;
     }
     @media (max-width: 1099px) {
       .five {

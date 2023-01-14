@@ -10,7 +10,7 @@
           @swiper="onSwiper"
           @slideChange="onSlideChange">
           <swiper-slide>
-            <div class="slide">
+            <div data-aos="zoom-out-down" class="slide">
               <h2>
                 We at Jubran Pharma are committed to working with partners to
                 lead the healthcare industry in Yemen with the highest
@@ -55,7 +55,7 @@
             </div></swiper-slide>
         </swiper>
      
-          <img src="@/assets/global/dr1.png" alt="" />
+          <img data-aos="zoom-in-up" src="@/assets/global/dr1.png" alt="" />
         
       </div>
     </div>
@@ -133,7 +133,7 @@ export default {
 }
 @media (max-width: 768px) {
   .home .min-title {
-    width: 102%;
+    width: 100%;
   }
 }
 .home .form h2 {
@@ -164,7 +164,7 @@ export default {
 }
 
 .home .form button {
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid #2f6044;
   color: #2f6044;
   background-color: #cefbf9;
@@ -189,9 +189,10 @@ export default {
 }
 @media (max-width: 768px) {
   .home .min-title .form img{
+    
     width: 185px;
-    left: -184px;
-    top: -334px;
+    left: -220px;
+    top: -240px;
   }
 }
 .bullets span.active {

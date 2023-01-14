@@ -10,7 +10,7 @@
       @swiper="onSwiper"
       @slideChange="onSlideChange">
       <swiper-slide>
-        <div class="card">
+        <div data-aos="zoom-in-right" class="card">
           <img class="img-meet" src="../assets/global/teem.png" alt="" />
           <div>
             <div class="comm">,,</div>
@@ -25,7 +25,7 @@
         </div>
       </swiper-slide>
       <swiper-slide>
-        <div class="card">
+        <div data-aos="zoom-in-left" class="card">
           <img class="img-meet" src="../assets/global/teem.png" alt="" />
           <div>
             <div class="comm">,,</div>
@@ -181,7 +181,8 @@ font-size: 28px;
 }
 .min-container{
     margin-bottom: 80px;
-}
+
+  }
 .min-container .card .slide {
   width: 100%;
   height: 100vh;
@@ -189,7 +190,8 @@ font-size: 28px;
 
 .min-container> div > .swiper-pagination {
     text-align: center;
-    margin-bottom: -17px !important;
+    margin-bottom: -12px !important;
+ 
 }
 .line {
     border-bottom: 1px solid #e2e2e2de;

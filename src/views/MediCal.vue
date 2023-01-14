@@ -1,10 +1,12 @@
 <template>
 
-  <div id="medical" class="mediCal" >
+  <div  id="medical" class="mediCal" >
     <div class="line"></div>
-    <div class="container">
+    <div  class="container">
       <h2>Welcome to Medical Pharma</h2>
       <p>
+     
+
         Medical Pharma represents and aims to be the agent of major and minor
         multinational pharmaceutical industries worldwide and partner with
         international NGOs in the country to pave the way for better access for
@@ -14,23 +16,23 @@
     <div class="min-count">
       <div class="count">
         <div class="box">
-          <img src="../assets/global/100.svg" />
+          <img data-aos="zoom-in-right" src="../assets/global/100.svg" />
           <div class="number">100</div>
           <p>Agent</p>
         </div>
 
         <div class="box">
-          <img src="../assets/global/700.svg" />
+          <img data-aos="zoom-in-right" src="../assets/global/700.svg" />
           <div class="number">700</div>
           <p>Branch</p>
         </div>
         <div class="box">
-          <img src="../assets/global/20.svg" />
+          <img data-aos="zoom-in-left" src="../assets/global/20.svg" />
           <div class="number">20</div>
           <p>Client</p>
         </div>
         <div class="box">
-          <img src="../assets/global/9000.svg" />
+          <img data-aos="zoom-in-left" src="../assets/global/9000.svg" />
           <div class="number">9000</div>
           <p>Employee</p>
         </div>
@@ -54,6 +56,7 @@
 
 export default {
   name: "MediCal",
+  
 };
 </script>
 

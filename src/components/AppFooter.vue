@@ -60,7 +60,7 @@ footer {
 }
 @media (max-width: 1099px) {
     footer{
-        width: 102%;
+        width: 100%;
     }
 }
 @media (max-width: 1099px) {

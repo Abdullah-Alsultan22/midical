@@ -13,6 +13,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "aos": "^2.3.4",
     "swiper": "^8.4.5",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6",
